@@ -22,7 +22,7 @@ const Login = () => {
             return;
         }
         try {
-            if (formData.email === 'admin@gmail.com' && formData.password === 'Admin123$') {
+            if (formData.email === 'admin@gmail.com' && formData.password === 'admin123') {
                 navigate('/admin');
             } else if (formData.email === 'deshini@gmail.com' && formData.password === '12345678') {
                 navigate('/dashboard');
